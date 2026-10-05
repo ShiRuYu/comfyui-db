@@ -5,7 +5,7 @@
       "name": "ComfyUI-Inpaint-CropAndStitch",
       "description": "局部修复",
       "gitUrl": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch.git",
-      "installed": false
+      "installed": true
     },
     {
       "name": "rgthree-comfy",
@@ -23,13 +23,13 @@
       "name": "ComfyUI-KJNodes",
       "description": "基础节点",
       "gitUrl": "https://github.com/kijai/ComfyUI-KJNodes.git",
-      "installed": false
+      "installed": true
     },
     {
       "name": "ComfyUI_essentials",
       "description": "运算节点/锐化",
       "gitUrl": "https://github.com/cubiq/ComfyUI_essentials.git",
-      "installed": false
+      "installed": true
     },
     {
       "name": "ComfyTV",

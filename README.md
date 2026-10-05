@@ -24,11 +24,11 @@
 
 | 插件 | 用途 | Git 地址 | ComfyUI-aki-v3.2 `custom_nodes` |
 | --- | --- | --- | --- |
-| ComfyUI-Inpaint-CropAndStitch | 局部修复 | [GitHub](https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch.git) | 未在该目录发现 |
+| ComfyUI-Inpaint-CropAndStitch | 局部修复 | [GitHub](https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch.git) | 已安装 |
 | rgthree-comfy | 基础节点/随机种子/图像对比 | [GitHub](https://github.com/rgthree/rgthree-comfy) | 已安装 |
 | ComfyUI-Easy-Use | 基础插件 | [GitHub](https://github.com/yolain/ComfyUI-Easy-Use.git) | 已安装 |
-| ComfyUI-KJNodes | 基础节点 | [GitHub](https://github.com/kijai/ComfyUI-KJNodes.git) | 未在该目录发现 |
-| ComfyUI_essentials | 运算节点/锐化 | [GitHub](https://github.com/cubiq/ComfyUI_essentials.git) | 未在该目录发现 |
+| ComfyUI-KJNodes | 基础节点 | [GitHub](https://github.com/kijai/ComfyUI-KJNodes.git) | 已安装 |
+| ComfyUI_essentials | 运算节点/锐化 | [GitHub](https://github.com/cubiq/ComfyUI_essentials.git) | 已安装 |
 | ComfyTV | 节点画布式媒体工作台，可将图像、视频、音频等处理阶段串成完整流程。 | [GitHub](https://github.com/jtydhr88/ComfyTV.git) | 已安装 |
 | comfyui_controlnet_aux | ControlNet 辅助预处理节点，可生成 Canny、姿态、深度等控制提示图。 | [GitHub](https://github.com/Fannovel16/comfyui_controlnet_aux) | 已安装 |
 | ComfyUI_Custom_Nodes_AlekPet | 自定义节点合集，包含姿态与涂鸦控制、提示词翻译、图像视频生成和实用工具。 | [GitHub](https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet) | 已安装 |
