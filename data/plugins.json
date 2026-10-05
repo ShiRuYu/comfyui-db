@@ -1,0 +1,125 @@
+{
+  "inventorySource": "ComfyUI-aki-v3.2/ComfyUI/custom_nodes",
+  "plugins": [
+    {
+      "name": "ComfyUI-Inpaint-CropAndStitch",
+      "description": "局部修复",
+      "gitUrl": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch.git",
+      "installed": false
+    },
+    {
+      "name": "rgthree-comfy",
+      "description": "基础节点/随机种子/图像对比",
+      "gitUrl": "https://github.com/rgthree/rgthree-comfy",
+      "installed": true
+    },
+    {
+      "name": "ComfyUI-Easy-Use",
+      "description": "基础插件",
+      "gitUrl": "https://github.com/yolain/ComfyUI-Easy-Use.git",
+      "installed": true
+    },
+    {
+      "name": "ComfyUI-KJNodes",
+      "description": "基础节点",
+      "gitUrl": "https://github.com/kijai/ComfyUI-KJNodes.git",
+      "installed": false
+    },
+    {
+      "name": "ComfyUI_essentials",
+      "description": "运算节点/锐化",
+      "gitUrl": "https://github.com/cubiq/ComfyUI_essentials.git",
+      "installed": false
+    },
+    {
+      "name": "ComfyTV",
+      "description": "节点画布式媒体工作台，可将图像、视频、音频等处理阶段串成完整流程。",
+      "gitUrl": "https://github.com/jtydhr88/ComfyTV.git",
+      "installed": true
+    },
+    {
+      "name": "comfyui_controlnet_aux",
+      "description": "ControlNet 辅助预处理节点，可生成 Canny、姿态、深度等控制提示图。",
+      "gitUrl": "https://github.com/Fannovel16/comfyui_controlnet_aux",
+      "installed": true
+    },
+    {
+      "name": "ComfyUI_Custom_Nodes_AlekPet",
+      "description": "自定义节点合集，包含姿态与涂鸦控制、提示词翻译、图像视频生成和实用工具。",
+      "gitUrl": "https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet",
+      "installed": true
+    },
+    {
+      "name": "ComfyUI_IPAdapter_plus",
+      "description": "IPAdapter 图像条件节点，可将参考图中的主体或风格迁移到生成结果。",
+      "gitUrl": "https://github.com/cubiq/ComfyUI_IPAdapter_plus",
+      "installed": true
+    },
+    {
+      "name": "ComfyUI_UltimateSDUpscale",
+      "description": "将大图切块进行图生图扩散放大，以较低显存需求改善放大细节。",
+      "gitUrl": "https://github.com/ssitu/ComfyUI_UltimateSDUpscale",
+      "installed": true
+    },
+    {
+      "name": "ComfyUI-Crystools",
+      "description": "包含资源监控、进度与耗时、图像和 JSON 对比、元数据及调试工具。",
+      "gitUrl": "https://github.com/crystian/ComfyUI-Crystools",
+      "installed": true
+    },
+    {
+      "name": "ComfyUI-DD-Translation",
+      "description": "面向新版 ComfyUI 的简体中文界面翻译，并适配常用自定义节点。",
+      "gitUrl": "https://github.com/Dontdrunk/ComfyUI-DD-Translation",
+      "installed": true
+    },
+    {
+      "name": "ComfyUI-GGUF",
+      "description": "为 ComfyUI 增加 GGUF 量化格式模型的加载与推理节点。",
+      "gitUrl": "https://github.com/leejet/ComfyUI-GGUF.git",
+      "installed": true
+    },
+    {
+      "name": "ComfyUI-Impact-Pack",
+      "description": "图像增强节点合集，提供检测、细化、放大和管线等功能。",
+      "gitUrl": "https://github.com/ltdrdata/ComfyUI-Impact-Pack",
+      "installed": true
+    },
+    {
+      "name": "ComfyUI-LTXVideo",
+      "description": "为 LTX-2 视频生成提供额外的 ComfyUI 节点和示例工作流。",
+      "gitUrl": "https://github.com/Lightricks/ComfyUI-LTXVideo",
+      "installed": true
+    },
+    {
+      "name": "ComfyUI-Manager",
+      "description": "管理 ComfyUI 自定义节点的安装、移除、启用、停用和更新。",
+      "gitUrl": "https://github.com/Comfy-Org/ComfyUI-Manager",
+      "installed": true
+    },
+    {
+      "name": "ComfyUI-Prompt-Assistant",
+      "description": "调用云端或本地大模型翻译、扩写和润色提示词，并支持图像视频描述及历史记录。",
+      "gitUrl": "https://github.com/yawiii/ComfyUI-Prompt-Assistant.git",
+      "installed": true
+    },
+    {
+      "name": "ComfyUI-RMBG",
+      "description": "提供背景移除、图像抠图及人物、服装和物体分割节点。",
+      "gitUrl": "https://github.com/1038lab/ComfyUI-RMBG",
+      "installed": true
+    },
+    {
+      "name": "ComfyUI-VideoHelperSuite",
+      "description": "视频工作流节点，可加载视频或图像序列、抽取帧并将图像合成为视频。",
+      "gitUrl": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite",
+      "installed": true
+    },
+    {
+      "name": "ComfyUI-WanVideoWrapper",
+      "description": "为 WanVideo 及相关视频模型提供 ComfyUI 包装节点和工作流支持。",
+      "gitUrl": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
+      "installed": true
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "workflows": [
+    {
+      "name": "Qwen-Image 2.1 功能流（高清局部编辑与扩图）",
+      "description": "基于 Qwen-Image 2.1，包含高清局部编辑、图像扩展和生图功能。",
+      "file": "workflows/qwen-image21-highres-edit-outpaint.json",
+      "companionFiles": []
+    },
+    {
+      "name": "Qwen-Image 2.1 图像编辑与生图（Viggle Turbo 六步版）",
+      "description": "基于 Qwen-Image 2.1 和 Viggle Turbo 六步 LoRA 的图像编辑与生图工作流，需配套自定义节点脚本。",
+      "file": "workflows/qwen-image21-viggle-turbo-6step.json",
+      "companionFiles": [
+        "workflows/viggle_turbo.py"
+      ]
+    },
+    {
+      "name": "Qwen-Image 2.1 图像编辑（GGUF）",
+      "description": "GGUF 量化版 Qwen-Image 2.1 图像编辑模板，支持编辑主图和多张参考图、尺寸控制及结果对比；需要 ComfyUI-GGUF 插件。",
+      "file": "workflows/image_qwen_image_2_1_image_edit_gguf.json",
+      "companionFiles": [],
+      "requiresPlugins": [
+        "ComfyUI-GGUF"
+      ]
+    },
+    {
+      "name": "Qwen-Image 2.1 图像编辑",
+      "description": "Qwen-Image 2.1 图像编辑模板，支持编辑主图并结合参考图，附编辑提示、尺寸控制和示例素材说明。",
+      "file": "workflows/image_qwen_image_2_1_image_edit1.json",
+      "companionFiles": []
+    },
+    {
+      "name": "Qwen-Image 2.1 文生图",
+      "description": "Qwen-Image 2.1 文生图模板，支持 LoRA 与尺寸设置，并附透明背景 PNG 的提示写法和模型下载说明。",
+      "file": "workflows/image_qwen_image_2_1_t2i1.json",
+      "companionFiles": []
+    },
+    {
+      "name": "Z-Image-Turbo Fun Union ControlNet",
+      "description": "Z-Image-Turbo 搭配 Fun Union ControlNet 的控制图生成模板，以 Canny 为示例，可替换为 HED、深度、姿态或 MLSD 等控制条件。",
+      "file": "workflows/image_z_image_turbo_fun_union_controlnet2.json",
+      "companionFiles": []
+    },
+    {
+      "name": "Z-Image-Turbo 文生图",
+      "description": "Z-Image-Turbo 文生图模板，包含提示词示例、模型下载链接和工作流问题反馈说明。",
+      "file": "workflows/image_z_image_turbo1.json",
+      "companionFiles": []
+    },
+    {
+      "name": "Qwen-Image 2.1 Viggle Turbo 六步图像编辑",
+      "description": "支持多张参考图和可选提示词增强的 Viggle Turbo 六步图像编辑工作流，采用 CFG 关闭采样；需要自定义 Viggle 节点和模型。",
+      "file": "workflows/Qwen-Image-2.1-viggle-turbo-i2i-6step.json",
+      "companionFiles": [
+        "workflows/viggle_turbo.py"
+      ]
+    },
+    {
+      "name": "Qwen-Image 2.1 Viggle Turbo 六步文生图",
+      "description": "支持可选提示词增强和画幅设置的 Viggle Turbo 六步文生图工作流，采用 CFG 关闭采样；需要自定义 Viggle 节点和模型。",
+      "file": "workflows/Qwen-Image-2.1-viggle-turbo-t2i-6step.json",
+      "companionFiles": [
+        "workflows/viggle_turbo.py"
+      ]
+    }
+  ]
+}
